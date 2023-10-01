@@ -58,7 +58,7 @@ public class Monster extends JPanel {
         }
     }
 
-    public void MoveMonsters(){
+    public void moveMonsters(){
         movingMonsters = new MovingMonsters();
         movingMonsters.start();
     }
